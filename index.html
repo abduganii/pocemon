@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header>
+        <div class="container">
+            <div class="imgs">
+                <div class="logo">
+                    <img src="./img/pokemon_logo 1.png" width="610" alt="foto">
+                </div>
+                <img class="heart" src="./img/heart.svg" alt="50">
+            </div>
+
+            <form class="form">
+                <select class="searchSelect borders">
+                    <option value="All">All</option>
+                </select>
+                <input class="searchInput borders" type="text" placeholder="Search">
+                <select class="sortSelect borders">
+                    <option value="0">Aa-Zz</option>
+                    <option value="1">Zz-Aa</option>
+                    <option value="2">new-old</option>
+                    <option value="3">old-new</option>
+                </select>
+                <button class="btn borders">Button</button>
+            </form>
+        </div>
+
+    </header>
+
+    <div class="madal">
+        <div class="madal-content">
+            <ul class="bookmark-list">
+
+            </ul>
+        </div>
+    </div>
+    <div class="container2">
+        <ul class="list">
+
+        </ul>
+    </div>
+
+    <template id="pokemon">
+        <li class="pokemon">
+            <img class="pokemon-img" src="./img/004 1.png" width="157" alt="foto">
+            <hr class="hr">
+            <div class="pokemon-botom">
+                <div>
+                    <h3 class="pokemon-name w">name</h3>
+                    <ul class="pokemon-ganres"></ul>
+                    <span class="pokemon-weight w">9kg</span>
+                    <span class="pokemon-height w">99 age</span>
+                </div>
+                <a>
+                    <img class="bookmark-love" src="./img/heart.svg" width="30" alt="love">
+                </a>
+            </div>
+        </li>
+    </template>
+    <template id="pokemon-bookmark">
+        <li class="pokemon-bookmark">
+            <img class="pokemon-bookmark-img" src="./img/004 1.png" width="157" alt="foto">
+            <hr class="pokemon-bookmark-hr">
+            <div class="pokemon-bookmark-botom">
+                <div>
+                    <h3 class="pokemon-bookmark-name w">name</h3>
+                    <ul class="pokemon-bookmark-ganres"></ul>
+                    <span class="pokemon-bookmark-weight w">9kg</span>
+                    <span class="pokemon-bookmark-height w">99 age</span>
+                </div>
+                <img class="bosket" src="./img/trash.png" width="30" alt="basket">
+            </div>
+        </li>
+    </template>
+
+    <script src="./js/pokemons.js"></script>
+    <script src="./js/index.js"></script>
+</body>
+
+</html>

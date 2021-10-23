@@ -1,0 +1,163 @@
+*,
+*::after,
+*::before {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: sans-serif;
+    background-color: yellow;
+}
+.container {
+    max-width: 1180px;
+    margin: 0 auto;
+padding-left: 20px;
+padding-right: 20px;
+}
+.container2{
+    max-width: 1360px;
+    margin: 0 auto;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 100px;
+    }
+.logo{
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 70px;
+}
+.searchSelect{
+    padding: 16px 85px;
+    width: 260px;
+}
+.searchInput{
+    width: 300px;
+    padding: 16px 19px;
+}
+.searchInput::placeholder{
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 28px;
+    color: #000000;
+}
+.borders{
+    font-weight: bold;
+font-size: 24px;
+line-height: 28px;
+
+color: #000000;
+    background: #FFFFFF;
+    border: 2px solid #000000;
+    
+    border-radius: 15px;
+}
+ul{
+    list-style: none;
+}
+.sortSelect{
+    padding:16px 80px;
+    width: 260px;
+}
+.btn{
+    width: 200px;
+    padding: 16px 64px;
+}
+.form{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.pokemon , .pokemon-bookmark{
+    width: 307px;
+    background: #FFFFFF;
+border: 2px solid #000000;
+
+border-radius: 20px;
+text-align: center;
+margin-bottom: 30px;
+}
+.pokemon-img , .pokemon-bookmark-img{
+    margin-top: 30px;
+    margin-bottom: 68px;
+}
+.hr , .pokemon-bookmark-hr{
+    display: inline-block;
+    width: 100%;
+    height: 2px;
+    background: #000000;
+    margin-bottom: 20px;
+}
+.pokemon-botom ,  .pokemon-bookmark-botom{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    padding: 0 30px 37px 30px ;
+    text-align: left;
+}
+
+.pokemon-ganres, .pokemon-bookmark-ganres{
+    font-weight: 500;
+font-size: 20px;
+line-height: 23px;
+
+color: #000000;
+display: flex;
+margin-top: 5px;
+margin-bottom: 25px;
+}
+.pokemon-ganres li , .pokemon-bookmark li{
+    margin-right: 5px;
+}
+.w{
+    font-weight: bold;
+font-size: 24px;
+line-height: 28px;
+
+color: #000000;
+}
+.list{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.imgs{
+    position: relative;
+}
+.heart{
+    position: absolute;
+    top: 0;
+    right: 0;
+
+}
+
+.madal{
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.3);
+    width: 100%;
+    height: 100vh;
+}
+
+.madal-content{
+    position: absolute;
+    top: 0;
+    right: 0;
+    width:400px;
+    height: 100vh;
+    background: #FFEDA9;
+border: 2px solid #000000;
+padding: 50px;
+padding-bottom: 0;
+
+overflow-y: scroll;
+}
+.bosket{
+    transform: rotate(-90deg);
+}
+.madal-open{
+    display: inline-block;
+}
